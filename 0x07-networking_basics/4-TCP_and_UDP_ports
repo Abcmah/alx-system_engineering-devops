@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+#netstat command to show all listening sockets
+netstat -ln | grep '^tcp.*LISTEN\>'
